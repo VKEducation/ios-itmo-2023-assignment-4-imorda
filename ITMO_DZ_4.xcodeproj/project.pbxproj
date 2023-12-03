@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29E08CC42B1CEE0200F35A02 /* RWLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E08CC32B1CEE0200F35A02 /* RWLock.swift */; };
 		F55FD22E2B0B2ADA004E8D46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FD22D2B0B2ADA004E8D46 /* main.swift */; };
 		F55FD2352B0B2B63004E8D46 /* ThreadSafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FD2342B0B2B63004E8D46 /* ThreadSafeArray.swift */; };
 		F55FD2372B0B2EC8004E8D46 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55FD2362B0B2EC8004E8D46 /* TaskManager.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29E08CC32B1CEE0200F35A02 /* RWLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWLock.swift; sourceTree = "<group>"; };
 		F55FD22A2B0B2ADA004E8D46 /* ITMO_DZ_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ITMO_DZ_4; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55FD22D2B0B2ADA004E8D46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F55FD2342B0B2B63004E8D46 /* ThreadSafeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeArray.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				F55FD22D2B0B2ADA004E8D46 /* main.swift */,
 				F55FD2342B0B2B63004E8D46 /* ThreadSafeArray.swift */,
 				F55FD2362B0B2EC8004E8D46 /* TaskManager.swift */,
+				29E08CC32B1CEE0200F35A02 /* RWLock.swift */,
 			);
 			path = ITMO_DZ_4;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55FD2372B0B2EC8004E8D46 /* TaskManager.swift in Sources */,
+				29E08CC42B1CEE0200F35A02 /* RWLock.swift in Sources */,
 				F55FD2352B0B2B63004E8D46 /* ThreadSafeArray.swift in Sources */,
 				F55FD22E2B0B2ADA004E8D46 /* main.swift in Sources */,
 			);
@@ -257,8 +261,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GMD7EK7S94;
+				DEVELOPMENT_TEAM = VH36NKNV3S;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -268,8 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GMD7EK7S94;
+				DEVELOPMENT_TEAM = VH36NKNV3S;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
